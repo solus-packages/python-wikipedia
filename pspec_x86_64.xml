@@ -2,10 +2,11 @@
     <Source>
         <Name>python-wikipedia</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Packager>
         <License>MIT</License>
+        <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Wikipedia API for Python</Summary>
         <Description xml:lang="en">Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia. Search Wikipedia, get article summaries, get data like links and images from a page, and more. Wikipedia wraps the MediaWiki API so you can focus on using Wikipedia data, not getting it.
 </Description>
@@ -18,17 +19,41 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python3.5</Path>
-            <Path fileType="library">/usr/lib/python2.7</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia-1.4.0-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia-1.4.0-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia-1.4.0-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia-1.4.0-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia-1.4.0-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/exceptions.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/exceptions.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/util.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/wikipedia.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/wikipedia.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia-1.4.0-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia-1.4.0-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia-1.4.0-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia-1.4.0-py3.6.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia-1.4.0-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/__pycache__/exceptions.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/__pycache__/util.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/__pycache__/wikipedia.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/exceptions.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/util.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/wikipedia.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2016-02-02</Date>
+        <Update release="3">
+            <Date>2018-01-31</Date>
             <Version>1.4.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
