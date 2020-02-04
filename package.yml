@@ -1,6 +1,6 @@
 name       : python-wikipedia
 version    : 1.4.0
-release    : 3
+release    : 4
 source     :
     - https://pypi.python.org/packages/source/w/wikipedia/wikipedia-1.4.0.tar.gz : db0fad1829fdd441b1852306e9856398204dc0786d2996dd2e0c8bb8e26133b2
 license    : MIT

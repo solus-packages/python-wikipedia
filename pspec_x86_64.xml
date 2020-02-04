@@ -2,15 +2,15 @@
     <Source>
         <Name>python-wikipedia</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Wikipedia API for Python</Summary>
         <Description xml:lang="en">Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia. Search Wikipedia, get article summaries, get data like links and images from a page, and more. Wikipedia wraps the MediaWiki API so you can focus on using Wikipedia data, not getting it.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-wikipedia</Name>
@@ -32,28 +32,28 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/util.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/wikipedia.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/wikipedia/wikipedia.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia-1.4.0-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia-1.4.0-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia-1.4.0-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia-1.4.0-py3.6.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia-1.4.0-py3.6.egg-info/top_level.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/__pycache__/exceptions.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/__pycache__/util.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/__pycache__/wikipedia.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/exceptions.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/util.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/wikipedia/wikipedia.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia-1.4.0-py3.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia-1.4.0-py3.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia-1.4.0-py3.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia-1.4.0-py3.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia-1.4.0-py3.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia/__pycache__/exceptions.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia/__pycache__/util.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia/__pycache__/wikipedia.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia/exceptions.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia/util.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/wikipedia/wikipedia.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-01-31</Date>
+        <Update release="4">
+            <Date>2020-01-26</Date>
             <Version>1.4.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
